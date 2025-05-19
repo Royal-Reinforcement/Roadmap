@@ -1,10 +1,6 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="Roadmap",
-    page_icon="🗺️",
-    layout="centered",
-)
+st.set_page_config(page_title="Roadmap", page_icon="🗺️", layout="centered")
 
 st.image(st.secrets['images']['logo'], width=100)
 
