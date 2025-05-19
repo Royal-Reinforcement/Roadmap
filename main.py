@@ -1,5 +1,11 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Roadmap",
+    page_icon=":map:",
+    layout="centered",
+)
+
 st.image(st.secrets['images']['logo'], width=100)
 
 st.title('Project Roadmap')
