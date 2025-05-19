@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Roadmap",
-    page_icon=":map:",
+    page_icon="♖",
     layout="centered",
 )
 
