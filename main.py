@@ -27,7 +27,7 @@ df = df.sort_values(by='Started_Using', ascending=False)
 
 with st.expander('See past projects'):
     for index, item in df[df.Status == 'Done'].iterrows():
-        st.markdown(f"{item.Emoji} **{item.Project}** :green-badge[Delivered]")
+        st.markdown(f"{item.Emoji} **{item.Project}** :green-badge[Delivered {item.Started_Using}]")
         st.caption(item.Description)
 
 st.header('Coming soon')
